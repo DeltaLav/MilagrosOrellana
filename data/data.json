@@ -1,17 +1,9 @@
 {
-    "name":"STARSHINE",
-    "type":"tienda",
+    "name":"Milagros Orellana",
+    "type":"galeria",
     "social":[
         {
-            "name":"Facebook",
-            "url":""
-        },
-        {
             "name":"Instagram",
-            "url":""
-        },
-        {
-            "name":"Whatsapp",
             "url":""
         }
     ],
