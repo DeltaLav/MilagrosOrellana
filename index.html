@@ -3,83 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/starshine.png">
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Milagros Orellana</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-<body class="">
-    <header>
-        <div class="sticky-top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    <img src="img/amargoZ.jpeg" width="30" height="30" alt="" loading="lazy">
-                    Tita
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="views/about.html">About</a>
-                    <a class="nav-link" href="#">Galery</a>
-                    <a class="nav-link" href="#">
-                        <img src="img/instagram-new.png" alt="" width="30" height="30" loading="lazy">
-                    </a>
-                  </div>
-                </div>
-              </nav>
+<body class="bg-light">
+    <div id="load">
+        <div class="spinner-border text-primary" id="loading" role="status">
+            <div class="visually-hidden">Cargando...</Cargando></div>
         </div>
-        <div class="text-center">
-            <h1 class="display-1">Milagros <span class="text-muted">Orellana</span></h1>
-            <h5 class="display-4">Artist</h5>
-        </div>
-    </header>
-    <style>
-        .carousel-inner img {
-            height: 100%;
-            width: 100%;
-        }
-    </style>
-    <div class="pb-4">
-        <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel1" data-slide-to="1"></li>
-              <li data-target="#carousel1" data-slide-to="2"></li>
-              <li data-target="#carousel1" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="img/atardecer.jpeg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                  <img src="img/atardecerZ.jpeg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                  <img src="img/amargoZ.jpeg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                  <img src="img/extasisTeresa.jpeg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
     </div>
-      <footer>
-          <div class="bg-light text-center fixed-bottom">
-              <a class="link" href="#">
-                  <img src="img/IconB.png" alt="DeltaLav" height="30" width="30">
-              </a>
-          </div>
-      </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <div>
+      <img src="./img/bg-abstract.jpg" alt="Abstract" class="img-fluid" id="bg-abstract">
+    </div>
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <div class="card">
+            <header>
+                <div class="m-4">
+                    <h2 class="display-5 mb-0">Artista</h2>
+                    <h1 class="display-1 fw-light">Milagros Orellana</h1>
+                    <h5 class="lead">Acuarelas y Fotografía</h5>
+                </div>
+            </header>
+            <div class="btn-group">
+              <a href="./views/home.html" class="btn btn-primary">Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute bottom-0 end-0">
+        <div class="font-monospace">
+            <div class="bottom-0 end-0">
+                <p class="text-end text-white">
+                    Wallpaper made for <a href="https://www.freepik.es/freepik"><span class="badge rounded-pill bg-primary">Freepik</span></a> from <a href="https://www.freepik.es/"><span class="badge rounded-pill bg-primary">Freepik.es</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./apps/app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>

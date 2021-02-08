@@ -1,0 +1,24 @@
+{
+  "name": "milagrosorellana",
+  "version": "0.0.1",
+  "description": "Galeria",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeltaLav/MilagrosOrellana.git"
+  },
+  "keywords": [
+    "Arte",
+    "Acuarelas",
+    "Fotografias"
+  ],
+  "author": "Lav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeltaLav/MilagrosOrellana/issues"
+  },
+  "homepage": "https://github.com/DeltaLav/MilagrosOrellana#readme"
+}
